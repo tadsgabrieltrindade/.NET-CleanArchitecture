@@ -14,7 +14,7 @@ namespace CleanArchitecture.Persistence
            var connectionString = configuration.GetConnectionString("Sqlite");
             services.AddDbContext<AppDbContext>(options => options.UseSqlite(connectionString));
 
-            services.AddScoped<IUnitOfWork, IUnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserRepository, UserRepository>();
         }
 
