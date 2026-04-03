@@ -248,17 +248,6 @@ Este projeto é de código aberto e disponível sob a licença MIT.
 
 ---
 
-## 🎓 Próximos Cursos
-
-Depois de dominar Clean Architecture, considere estudar:
-- **Event Sourcing**: Arquitetura baseada em eventos
-- **SAGA Pattern**: Transações distribuídas
-- **DDD (Domain-Driven Design)**: Modelagem de negócio
-- **Microserviços**: Escalabilidade horizontalmente
-- **Event-Driven Architecture**: Comunicação assíncrona
-
----
-
 ## ❓ FAQ
 
 **P: Qual é o melhor ponto de partida?**
