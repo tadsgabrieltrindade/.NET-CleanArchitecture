@@ -76,3 +76,6 @@ artifacts/
 temp/
 tmp/
 /Project/CleanArchitecture.API/appsettings.json
+/Project/CleanArchitecture.API/usersdb.db
+/Project/CleanArchitecture.API/usersdb.db-shm
+/Project/CleanArchitecture.API/usersdb.db-wal
