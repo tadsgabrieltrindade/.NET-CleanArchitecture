@@ -29,7 +29,8 @@ namespace CleanArchitecture.Persistence.Repositories
 
         public async Task<T> Get(Guid id, CancellationToken cancellationToken)
         {
-            return await Context.Set<T>().FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
+            return await Context.Set<T>().FirstOrDefaultAsync(x => x.Id == id, cancellationToken)
+                ?? throw new KeyNotFoundException($"{typeof(T).Name} with id '{id}' was not found.");
         }
 
         public async Task<List<T>> GetAll(CancellationToken cancellationToken)

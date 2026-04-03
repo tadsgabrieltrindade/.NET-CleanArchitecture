@@ -18,7 +18,8 @@ namespace CleanArchitecture.Persistence.Repositories
 
         public async Task<User> GetByEmail(string email, CancellationToken cancellationToken)
         {
-           return await Context.Users.FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+           var user = await Context.Users.FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+           return user ?? throw new KeyNotFoundException($"User with email '{email}' was not found.");
         }
     }
 }
