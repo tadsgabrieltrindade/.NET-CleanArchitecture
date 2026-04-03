@@ -1,0 +1,77 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+*.sln.iml
+*.swp
+*.swo
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local Environment variables
+.env
+.env.local
+.env.*.local
+
+# Application config files (but ignore local overrides)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Node (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Build Artifacts
+artifacts/
+
+# IDE specific files
+.editorconfig.user
+
+# Temporary files
+temp/
+tmp/
