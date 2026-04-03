@@ -75,3 +75,4 @@ artifacts/
 # Temporary files
 temp/
 tmp/
+/Project/CleanArchitecture.API/appsettings.json
